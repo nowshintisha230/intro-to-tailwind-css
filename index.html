@@ -7,8 +7,28 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>Intro to Tailwind CSS</h1>
-    <h3>Exploring CSS via Utility Class </h3>
-    <p>This is exciting</p>
+    <h1 class="text-center font-bold bg-linear-to-r/longer from-indigo-500 to-teal-400">Intro to Tailwind CSS</h1>
+    <h3 class="bg-red-400 border-8 border-blue-600 ">Exploring CSS via Utility Class </h3>
+    <p class="underline text-2xl text-orange-700">This is exciting</p>
+
+
+    <section class="w-1/2 h-1/2 border-8 border-red-600 m-10 p-10">
+        <h1 class="text-3xl underline text-green-400 text-center m-6">My Section Title</h1>
+        <p class="text-blue-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa at laborum necessitatibus ipsum sint cupiditate qui voluptate quisquam. Est, eius! Tempore suscipit repudiandae quos consequuntur omnis reprehenderit rerum sint dolorem. Numquam cupiditate eligendi, dicta, aspernatur nostrum ipsum quasi qui ipsa tempore a iure facere expedita dolore? Maiores eos necessitatibus cum magnam nesciunt provident, iure reprehenderit? Minus veritatis suscipit, necessitatibus magnam impedit expedita assumenda autem nobis, consequuntur commodi provident cumque voluptate modi libero facilis dicta eum maxime architecto, perferendis laboriosam ab! Veniam, excepturi nam alias, perferendis deserunt repellat iste doloremque optio et error minus rerum harum. Molestias quae nulla facilis ullam.</p>
+    </section>
+    <!-- responsive section -->
+     <section class="bg-orange-400 sm:bg-yellow-400 lg:bg-red-400 ">
+        <h3 class="text-3xl">My Responsive Section</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque fugit aliquid et non molestiae quaerat illum molestias blanditiis ullam provident? Voluptatem voluptas corrupti atque esse at culpa aspernatur tempora ut alias quam, nesciunt officiis veritatis est laboriosam impedit voluptate fuga porro, doloremque consectetur nihil unde expedita quasi voluptates eaque? Sunt expedita distinctio non. Aspernatur voluptas blanditiis laboriosam dolor tempore vero, exercitationem sed sit a ratione. Dicta, sint perspiciatis eum facere molestias quidem maxime quo nostrum atque commodi placeat dolorum at consectetur cupiditate excepturi quod quisquam cumque adipisci. Dicta, natus quam.</p>
+     </section>
+
+     <!-- flex layout -->
+      <section class="mt-10 p-10 flex flex-col items-center justify-center lg:flex-row lg:justify-around border-5">
+        <div class="w-48 h-47 border-2 bg-purple-200 text-center">Item-1</div>
+        <div class="w-48 h-47 border-2 bg-purple-400 text-center">Item-2</div>
+        <div class="w-48 h-47 border-2 bg-purple-500 text-center ">Item-3</div>
+        <div class="w-48 h-47 border-2 bg-purple-700 text-center">Item-4</div>
+        <div class="w-48 h-47 border-2 bg-purple-900 text-center">Item-5</div>
+      </section>
 </body>
 </html>
